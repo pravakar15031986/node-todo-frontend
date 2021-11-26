@@ -2,13 +2,13 @@
 pipeline {
   agent any
     
-  tools {nodejs "node"}
+  tools {nodejs "nodejs"}
     
   stages {
         
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/gustavoapolinario/node-todo-frontend'
+        git 'https://github.com/pravakar15031986/node-todo-frontend.git'
       }
     }
         
